@@ -1,0 +1,14 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "k2manager-api-develop"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1jt5wf0vuus1k"
+s3_prefix = "k2manager-api-develop"
+region = "ap-northeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = [
+	"Environment=\"develop\""
+]
+image_repositories = []

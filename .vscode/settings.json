@@ -1,0 +1,5 @@
+{
+    "npm.enableRunFromFolder": false,
+    "workbench.layoutControl.type": "both",
+    "editor.parameterHints.cycle": false
+}
